@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const customTechearsAxios = axios.create({
-  baseURL: 'http://localhost:8911/graphql',
+  baseURL: 'http://localhost:8912/graphql',
 });
 
 // Adicione um interceptor de requisição
