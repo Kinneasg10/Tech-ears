@@ -56,7 +56,7 @@ const Auth = (props) => {
               <input
                 name="email"
                 value={email}
-                onChange={handleDigitarEmail}
+                onBlur={handleDigitarEmail}
               ></input>
             </div>
 
@@ -66,7 +66,7 @@ const Auth = (props) => {
                 name="senha"
                 type="password"
                 value={password}
-                onChange={handleDigitarSenha}
+                onBlur={handleDigitarSenha}
               ></input>
             </div>
 
